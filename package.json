@@ -1,5 +1,5 @@
 {
-  "name": "tina-open-auth",
+  "name": "tina-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,9 @@
     "next-tinacms-github": "^0.25.0-alpha.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-dropzone": "^11.0.1",
     "react-tinacms-github": "^0.31.0-alpha.4",
+    "react-tinacms-inline": "^0.31.0-alpha.4",
     "styled-components": "^5.1.0",
     "tinacms": "^0.31.0-alpha.4"
   },
