@@ -6,6 +6,7 @@ import {
   TinacmsGithubProvider,
 } from 'react-tinacms-github'
 
+import '../styles/index.css'
 import '../styles/paragraph.css'
 import '../styles/images.css'
 import '../styles/hero.css'
