@@ -1,6 +1,5 @@
-import React from 'react';
-import { BlocksControls, InlineTextarea } from 'react-tinacms-inline';
-import '../styles/features.css';
+import React from 'react'
+import { BlocksControls, InlineTextarea } from 'react-tinacms-inline'
 
 function Feature({ index }) {
   return (
@@ -14,7 +13,7 @@ function Feature({ index }) {
         </p>
       </div>
     </BlocksControls>
-  );
+  )
 }
 
 export const featureBlock = {
@@ -29,4 +28,4 @@ export const featureBlock = {
     },
     fields: [],
   },
-};
+}

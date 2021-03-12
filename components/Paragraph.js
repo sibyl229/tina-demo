@@ -1,6 +1,5 @@
-import React from 'react';
-import { BlocksControls, InlineTextarea } from 'react-tinacms-inline';
-import '../styles/paragraph.css';
+import React from 'react'
+import { BlocksControls, InlineTextarea } from 'react-tinacms-inline'
 
 function Paragraph({ index }) {
   return (
@@ -13,7 +12,7 @@ function Paragraph({ index }) {
         </div>
       </div>
     </BlocksControls>
-  );
+  )
 }
 
 export const paragraphBlock = {
@@ -26,4 +25,4 @@ export const paragraphBlock = {
     },
     fields: [],
   },
-};
+}

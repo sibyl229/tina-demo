@@ -6,6 +6,12 @@ import {
   TinacmsGithubProvider,
 } from 'react-tinacms-github'
 
+import '../styles/paragraph.css'
+import '../styles/images.css'
+import '../styles/hero.css'
+import '../styles/features.css'
+import '../styles/features.css'
+
 export default class Site extends App {
   cms: TinaCMS
 

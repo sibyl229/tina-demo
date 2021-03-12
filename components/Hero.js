@@ -1,6 +1,5 @@
-import React from 'react';
-import { InlineTextarea, BlocksControls } from 'react-tinacms-inline';
-import '../styles/hero.css';
+import React from 'react'
+import { InlineTextarea, BlocksControls } from 'react-tinacms-inline'
 
 export function Hero({ text_color, background_color, align }) {
   return (
@@ -22,7 +21,7 @@ export function Hero({ text_color, background_color, align }) {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
 export const heroBlock = {
@@ -62,4 +61,4 @@ export const heroBlock = {
       },
     ],
   },
-};
+}

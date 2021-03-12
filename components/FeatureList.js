@@ -1,7 +1,6 @@
-import React from 'react';
-import { BlocksControls, InlineBlocks } from 'react-tinacms-inline';
-import '../styles/features.css';
-import { featureBlock } from './Feature';
+import React from 'react'
+import { BlocksControls, InlineBlocks } from 'react-tinacms-inline'
+import { featureBlock } from './Feature'
 
 function FeatureList({ index }) {
   return (
@@ -16,12 +15,12 @@ function FeatureList({ index }) {
         />
       </div>
     </BlocksControls>
-  );
+  )
 }
 
 const FEATURE_BLOCKS = {
   feature: featureBlock,
-};
+}
 
 export const featureListBlock = {
   Component: FeatureList,
@@ -49,4 +48,4 @@ export const featureListBlock = {
     },
     fields: [],
   },
-};
+}

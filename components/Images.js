@@ -1,6 +1,5 @@
-import React from 'react';
-import { BlocksControls, InlineImage } from 'react-tinacms-inline';
-import '../styles/images.css';
+import React from 'react'
+import { BlocksControls, InlineImage } from 'react-tinacms-inline'
 
 function Images({ data, index }) {
   return (
@@ -26,7 +25,7 @@ function Images({ data, index }) {
         </div>
       </div>
     </BlocksControls>
-  );
+  )
 }
 
 export const imagesBlock = {
@@ -75,4 +74,4 @@ export const imagesBlock = {
       },
     ],
   },
-};
+}
