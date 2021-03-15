@@ -45,7 +45,7 @@ export default class Site extends App {
       /**
        * 4. Use the Sidebar and Toolbar
        */
-      sidebar: props.pageProps.preview,
+      sidebar: false,
       toolbar: props.pageProps.preview,
     })
   }
